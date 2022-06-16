@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.container {
+    padding: 0 700px;
+}
+
+/* top-nav and mid-bar */
+.nav {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.mid-bar {
+    text-align: center;
+    padding: 20px;
+}
+
+/* start main content */
+.body {
+    display: flex;
+}
+
+/* left column "usercard" */
+.usercard {
+    height: 200px;
+    margin-right: 20px;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    border: 1px solid black;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.avatar {
+    width: 80px;
+}
+
+/* right column "feeds" */
+.feeds {
+    flex: 5;
+}
+
+.feed-box {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+#count1, #count2, #count3 {
+    margin-right: 30px;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #FFD967;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    font-size: 1rem;
+    cursor: pointer;
+}

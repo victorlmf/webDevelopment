@@ -1,0 +1,98 @@
+* {
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.container {
+    padding: 0px 150px;
+}
+
+/* button border, shadow & pointer */
+.btn-login, .btn-likes, .btn-add {
+    border: solid 2px black;
+    box-shadow: 3px 3px black;
+    cursor: pointer;
+}
+
+/* top nav */
+.nav {
+    background-color: #CCCCCC;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h1 {
+    margin: 10px;
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0px 100px;
+    padding: 10px;
+    border: solid 2px black;
+}
+
+.btn-login {
+    width: 80px;
+    padding: 5px;
+    background-color: #2B78E4;
+    color: white;
+}
+
+/* left column */
+.body {
+    display: flex;
+}
+
+.left-col {
+    flex: 2;
+}
+
+.definition-card {
+    border: solid 2px black;
+    margin: 20px 0px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.word {
+    margin-right: 50px;
+}
+
+.word p {
+    margin: 0px 0px 5px 0px;
+    text-align: center;
+}
+
+.word h1 {
+    margin: 10px 0px 0px 10px;
+}
+
+.btn-likes {
+    width: 90px;
+    margin: 20px 0px;
+    padding: 5px 10px;
+    background-color: #FFD967;
+}
+
+/* right column */
+.right-col {
+    flex: 1;
+}
+
+.define-card {
+    border: solid 2px black;
+    margin: 20px 0px 0px 20px;
+    padding: 0px 20px;
+    display: grid;
+}
+
+.btn-add {
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #93C47D;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- start top nav -->
+        <div class="nav">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search" class="search-bar">
+            <button class="btn-login" onclick="logOut(this)">Login</button>
+        </div>
+        <!-- end top nav -->
+        <div class="body">
+            <!-- start left column -->
+            <div class="left-col">
+                <div class="definition-card">
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <p><i>noun</i></p>                          
+                        <p>Plural: <i>ninjas</i></p>
+                        <button class="btn-likes" onclick="message()">13 likes</button>
+                    </div>
+                    <div>
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="definition-card">
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <p><i>noun</i></p>                            
+                        <p>Plural: <i>ninjas</i></p>
+                        <button class="btn-likes" onclick="message()">37 likes</button>
+                    </div>
+                    <div class="def">
+                        <p>A <a href="#">programmer </a>who breaks down problem with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <!-- start right column -->
+            <div class="right-col">
+                <div class="define-card">
+                    <h2>Dojonary is defined by <b>YOU</b></h2>
+                    <button class="btn-add" onclick="hideButton(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

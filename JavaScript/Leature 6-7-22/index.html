@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schitts Creek Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <div id="navigation">
+            <img src="img/logo.png" alt="chitts creek logo" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About The Show</a></li>
+                <li><a href="#">Show Times</a></li>
+                <li><a href="#">Full Cast List</a></li>
+            </ul>
+        </div>
+        <!-- End Navigation -->
+        <!-- Title -->
+        <p id="title">Schitts's Creek Cast</p>
+        <!-- End Title -->
+        <!-- Actor Banner -->
+        <div id="cast_banner">
+            <div class="cast_info">
+                <p class="cast">Character: Davis Rose | Played: By: Dan Levy</p>
+                <hr>
+                <p class="cast_bio">Daniel Joseph Levy is a Canadian actor, writer, director, comedian, and producer. Born in Toronto to parents Eugene Levy and Deborah Divine, he began his career as a television host on MTV Canada.</p>
+                <button onclick="addLike()">Liked By: <span class="likes">0</span></button>
+            </div>
+            <img src="img/david.jpeg" alt="david rose" class="cast_img">
+        </div>
+        <!-- End Actor Banner-->
+        <!-- Footer -->
+        <div id="footer">
+            <img src="img/moira.jpeg" alt="moira rose" class="footer_img">
+            <img src="img/johnny.jpeg" alt="johnny rose" class="footer_img">
+            <img src="img/alexis.jpeg" alt="alexis rose" class="footer_img" onclick="alexis()">
+            <img src="img/jocelyn.jpeg" alt="jocelyn schitt" class="footer_img">
+            <img src="img/roland.jpeg" alt="roland schitt" class="footer_img">
+        </div>
+        <!-- End Footer -->
+        <!-- Cookie Policy -->
+        <div id="cookie_policy">
+            <div class="cookie_content">
+                <h2 class="message_header">Stop! Cookie Time</h2>
+                <p class="message">“I'm trying very hard not to connect with people right now.” - David Rose</p>
+            </div>
+            <button onclick="acceptCookies()">I Accpet</button>
+        </div>
+        <!-- End Cookie Policy -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

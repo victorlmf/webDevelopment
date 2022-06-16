@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports News Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Live Scores -->
+    <div class="wrapper">
+        <div class="other-scores">
+            <h2>Live Scores</h2>
+            <p>SJC Ninjias - 314<br>
+            NS Priates -159</p>
+            <p>CHI Samurai - 0<br>
+            TUL Wizards - 0</p>
+            <p>BOS Hackers - 13<br>
+            TYO Youkai - 37</p>
+            <p>BOI Knights - 5<br>
+            SEA Seo Lions - 11</p>
+        </div>
+    </div>
+    <!-- End Live Scores -->
+    <!-- DSNN Navigation -->
+    <div class="navigation">
+        <div class="container-nav">
+            <div class="sports">
+                <h2>DSNN</h2>
+                <p>Football</p>
+                <p>Basketball</p>
+                <p>Baseball</p>
+                <p>Soccer</p>
+                <p>More...</p>              
+            </div>
+            <div class="tools">
+                <img src="img/search-light.png" alt="search light" class="tools-img">
+                <img src="img/hamburger-light.png" alt="hamburger light" class="tools-img">
+                <img src="img/user-circle-light.png" alt="user circle light" class="tools-img">
+            </div>
+        </div>
+    </div>
+    <!-- End DSNN Navigation -->
+    <div class="body">
+        <div class="container-body">
+            <!-- Start Left Column -->
+            <div class="left-col">
+                <div class="content-box">
+                    <h2>Top Sotires</h2>
+                    <hr>
+                    <p>Ninjas up big in 5th</p>
+                    <p>Best sports cities</p>
+                    <p>Choi joins Hall of Fame</p>
+                    <p>Tournament under way</p>
+                    <p>Samurai at Wizards...</p>
+                </div>
+                <div class="content-box">
+                    <h4>Customize your DSNN</h4>
+                    <button id="sign-in">Sign In</button>
+                    <button id="sign-up">Sign Up</button>
+                </div>
+                <div class="content-box" id="subscribe-box">
+                    <h4>Never miss a play</h4>
+                    <button id="subscribe" onclick="removeBox(this)">Subscribe</button>
+                </div>
+            </div>
+            <!-- End Left Column -->
+            <!-- Start Right Box - Scoreboard -->
+            <div class="scoreboard">
+                <div class="header">
+                    <ul>
+                        <li>Live</li>
+                    </ul>
+                    <h1>Ninjas Leading Priates</h1>
+                </div>
+                <div class="live-scores">
+                    <div class="teams">
+                        <img src="img/sjc-ninjas.png" alt="san jose ninjas" class="team-img">
+                        <h5>San Jose</h5>
+                        <h2 id="ninjas">Ninjas</h2>
+                        <p>(10W - 3L)</p>
+                        <h1 id="score1" onclick="addScore(0)">314</h1>
+                    </div>
+                    <div class="mid-info">
+                        <h1>VS</h1>
+                        <p>0:13 remaining<br>
+                        5th Period</p>
+                    </div>
+                    <div class="teams">
+                        <img src="img/ns-pirates.png" alt="nova scotia priates" class="team-img">
+                        <h5>Nova Scotia</h5>
+                        <h2 id="priates">Priates</h2>
+                        <p>(12W - 2L)</p>
+                        <h1 id="score2" onclick="addScore(1)">159</h1>
+                    </div>
+                </div>
+                <hr>
+                <p id="footer">A conservative match between the two top-performing sides in the Central League Division with a number 1 seed at stake... <a href="#">get live updates</a></p>
+            </div>
+            <!-- End Right Box - Scoreboard -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

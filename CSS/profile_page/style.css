@@ -1,0 +1,174 @@
+* {
+    font-family: sans-serif;
+    font-weight: normal;
+    color: black;
+}
+
+/* Start TopNav */
+.topnav {
+    background-color: black;
+    padding: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.links h1, .links a, .btn, .nav h3 {
+    color: white;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.btn {
+    width: 80px;
+    padding: 5px;
+    background-color: #19A2B8;
+}
+/* End TopNav */
+
+/* Start Main */
+.main {
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-left {
+    margin-right: 15px;
+    flex: 2;
+}
+
+.main-right {
+    margin-left: 15px;
+    flex: 1;
+}
+
+/* Start Main-Left */
+.card-box-1 {
+    background-color: #19A2B8;
+}
+
+.profile {
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid #CCCCCC;
+    border-radius: 50%;
+    position: relative;
+    left: 30px;
+    top: 55px;
+}
+
+.card-box-2 {
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 2px solid #CCCCCC;
+    border-top: none;
+}
+
+.icons {
+    height: 20px;
+    margin-right: 10px;
+    color: #3F6EA3;
+}
+
+.nav {
+    padding: 0px 30px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.edu-bg {
+    background-color: white;
+    padding: 10px 30px;
+    border: 2px solid #CCCCCC;
+    border-top: none;
+}
+
+.edu-bg h2, .edu-bg h3, .edu-bg p {
+    margin: 5px;
+}
+
+.edu-bg h3 {
+    color: #7F7F7F;
+}
+
+/* Start Main-Right */
+.con-req {
+    margin-bottom: 30px;
+}
+
+#nav-num-1 {
+    background-color: #CCCCCC;
+    color: black;
+    margin-right: 10px;
+    padding: 5px 13px;
+    border-radius: 50%;
+}
+
+.avatars {
+    width: 30px;
+    margin: 10px 10px 10px 0px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.request-1, .request-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    border: 2px solid #CCCCCC;
+}
+
+.request-1 {
+    border-top: none;
+    border-bottom: none;
+}
+
+.request-2 {
+    border-top: none;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.circles {
+    width: 30px;
+    padding: 5px;
+}
+
+.your-con {
+    padding: 0px 30px;
+    border: 2px solid #CCCCCC;
+    border-top: none;
+}
+
+#nav-num-2 {
+    background-color: #CCCCCC;
+    color: black;
+    margin-right: 10px;
+    padding: 5px 15px;
+    border-radius: 50%;
+}
+
+.view-more {
+    padding: 15px 30px;
+    border: 2px solid #CCCCCC;
+    border-top: none;
+}

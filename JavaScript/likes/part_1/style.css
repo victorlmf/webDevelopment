@@ -1,0 +1,35 @@
+* {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px 200px;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+#count {
+    margin-right: 30px;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #FFD967;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    font-size: 1rem;
+    cursor: pointer;
+}

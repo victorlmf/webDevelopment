@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Start TopNav -->
+    <div class="topnav">
+        <div class="links">
+            <a href="#"><h1>Profile</h1></a>
+            <a href="#">Home</a>
+            <a href="#">My Profile</a>
+            <a href="#">Find Connections</a>
+        </div>
+        <button class="btn">Sign Out</button>
+    </div>
+    <!-- End TopNav -->
+    <!-- Start Main -->
+    <div class="main">
+        <!-- Start Main Left -->
+        <div class="main-left">
+            <!-- Start UserCard -->
+            <div class="card-box-1">
+                <img src="images/jane-m.jpg" alt="jane" class="profile">
+            </div>
+            <div class="card-box-2">
+                <h1 id="newName">Jane Doe</h1>
+                <img src="icons/map-marker.png" alt="map" class="icons">
+                <h2><span>Seattle</span></h2>
+                <p>Developer | Engineer | Problem Solver<br>
+                    Master of shadows and the Internet!</p>
+                <a href="#" class="icons" onclick="changeName()">
+                    <img src="icons/gear.png" alt="gear" class="icons">edit profile
+                </a>
+            </div>
+            <!-- End UserCard -->
+            <!-- Start Education -->
+            <div class="edu">
+                <div class="nav">
+                    <h3>Education</h3>
+                </div>
+                <div class="edu-bg">
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    <h3>Dec 2019 - Mar 2020</h3>
+                    <p>Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+            <!-- End Education -->
+        </div>
+        <!-- End Main Left -->
+        <!-- Start MainRight -->
+        <div class="main-right">
+            <!-- Start Connection Requests -->
+            <div class="con-req">
+                <div class="nav">
+                    <span id="nav-num-1">2</span>
+                    <h3>Connection Requests</h3>
+                </div>
+                <div class="request-1" id="req1">
+                    <div class="name">
+                        <img src="images/todd-s.jpg" alt="todd" class="avatars">
+                        <span>Todd E</span>
+                    </div>
+                    <div class="name">
+                        <img src="icons/accept-circle.png" alt="accept" class="circles" onclick="accept('#req1')">
+                        <img src="icons/close-circle.png" alt="close" class="circles" onclick="decline('#req1')">
+                    </div>
+                </div>
+                <div class="request-2" id="req2">
+                    <div class="name">
+                        <img src="images/phil-s.jpg" alt="phill" class="avatars">
+                        <span>Phill K</span>
+                    </div>
+                    <div class="name">
+                        <img src="icons/accept-circle.png" alt="accept" class="circles" onclick="accept('#req2')">
+                        <img src="icons/close-circle.png" alt="close" class="circles" onclick="decline('#req2')">
+                    </div>
+                </div>
+            </div>
+            <!-- End Connection Requests -->
+            <!-- Start Your Connections -->
+            <div class="nav">
+                <span id="nav-num-2">418</span>
+                <h3>Your Connections</h3>
+            </div>
+            <div class="your-con">
+                <div class="name">
+                    <img src="images/adrien-s.jpg" alt="adrien" class="avatars">
+                    <span>Adrien D</span>
+                </div>
+                <div class="name">
+                    <img src="images/anne-s.jpg" alt="anne" class="avatars">
+                    <span>Anne J</span>
+                </div>
+                <div class="name">
+                    <img src="images/alayne-s.jpg" alt="alayne" class="avatars">
+                    <span>Alayne T</span>
+                </div>
+                <div class="name">
+                    <img src="images/arry-s.jpg" alt="arry" class="avatars">
+                    <span>Arry Y</span>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="#" class="icons">View More</a>
+            </div>
+            <!-- End Your Connections -->
+        </div>
+        <!-- End MainRight-->
+    </div>
+    <!-- End Main -->
+    <script src="script.js"></script>
+</body>
+
+</html>

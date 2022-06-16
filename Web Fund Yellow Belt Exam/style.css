@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper, .container-nav, .container-body {
+    width: 1000px;
+    margin: auto;
+}
+
+/* Common Aligments */
+.other-scores, .container-nav, .sports, .header, .live-scores {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Live Scores Bar */
+.other-scores {
+    padding: 10px 20px;
+}
+
+/* DSNN Navigation */
+.navigation {
+    background-color: black;
+}
+
+.sports {
+    width: 550px;
+    color: white;
+}
+
+.sports h2 {
+    padding: 10px;
+    background-color: #CF2B27;
+    transform: skewX(-20deg);
+}
+
+.tools-img {
+    height: 30px;
+    margin: 0 10px;
+}
+
+/* Body */
+.body {
+    background-color: #DDDDDD;
+}
+
+.container-body {
+    display: flex;
+    padding: 20px;
+}
+
+/* Left Column */
+.left-col {
+    flex: 1;
+}
+
+.content-box {
+    background-color: white;
+    margin: 0 10px 20px 0;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.content-box p {
+    margin: 10px 10px 10px 0;
+}
+
+.content-box h2, .content-box h4 {
+    margin: 0 10px 10px 0;
+}
+
+#sign-in {
+    background-color: #2783EE;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+#sign-up {
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+#subscribe {
+    background-color: #FFE599;
+    padding: 5px 50px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+/* Right Box - Scoreboard */
+.scoreboard {
+    flex: 2;
+    padding: 0 20px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+/* Header */
+.header {
+    padding: 0 20px;
+}
+
+li {
+    color: #CF2B29;
+    font-weight: bold;
+    font-size: 26pt;
+    list-style: none;
+}
+
+li::before {
+    content: '\2022';
+    vertical-align: middle;
+    font-size: 2em;
+}
+
+/* Live Scores */
+.teams, .mid-info {
+    text-align: center;
+}
+
+.team-img {
+    height: 150px;
+}
+
+#ninjas {
+    color: #0099A9;
+}
+
+#priates {
+    color: #E7293B;
+}
+
+.teams h1 {
+    font-size: 4em;
+}
+
+.mid-info h1, .mid-info p{
+    margin: 80px 0;
+}
+
+#footer {
+    padding: 20px 0;
+}

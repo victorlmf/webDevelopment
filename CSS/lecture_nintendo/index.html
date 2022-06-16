@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Box Model</title>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar">
+            <img src="img/logo.png" alt="nintendo logo" id="logo">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us:</li>
+                <li>Login</li>
+            </ul>
+        </div>
+        <img id="banner" src="img/banner.jpeg" onmouseover="this.src='img/banner1.jpeg'" onmouseout="this.src='img/banner.jpeg'"/>
+        <div id="news">
+            <div class="buy_now">
+                <h2 class="heading">Nintendo Switch Sports available now</h2>
+                <p class="btn" onclick="alert('Item has been added to your cart')">Buy Now</p>
+            </div>
+            <img src="img/everyone.png" alt="rated for everyone 10+" class="" id="warning">
+        </div>
+        <!-- Featured Section -->
+        <div id="card_section">
+            <p class="header_title">Featured</p>
+            <div class="cards">
+                <div class="card" onclick="this.remove()">
+                    <img src="img/card_one.png" alt="card one" class="card_image">
+                    <h3 class="card_title">Card Title: Pre-Order</h3>
+                    <a href="#" class="card_link">Nintendo Switch</a>
+                    <p class="btn" onclick="alert('This item is about to be removed')">Already Own</p>
+                </div>
+                <div class="card" onclick="this.remove()">
+                    <img src="img/card_two.png" alt="card two" class="card_image">
+                    <h3 class="card_title">Card Title: Pre-Order</h3>
+                    <a href="#" class="card_link">Nintendo Switch</a>
+                    <p class="btn" onclick="alert('This item is about to be removed')">Already Own</p>
+                </div>
+                <div class="card">
+                    <img src="img/card_three.png" alt="cardthree" class="card_image">
+                    <h3 class="card_title">Card Title: Pre-Order</h3>
+                    <a href="#" class="card_link">Nintendo Switch</a>
+                    <p class="btn">Already Own</p>
+                </div>
+                <div class="card">
+                    <img src="img/card_four.png" alt="card four" class="card_image">
+                    <h3 class="card_title">Card Title: Pre-Order</h3>
+                    <a href="#" class="card_link">Nintendo Switch</a>
+                    <p class="btn">Already Own</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer" onclick="this.style.backgroundImage = 'linear-gradient(to bottom right, #fae861, #d4110a)'">
+            <img src="img/logo.png" alt="nintendo logo" id="logo">
+            <div class="icons">
+                <img src="icons/facebook.svg" alt="facebook" class="icon">
+                <img src="icons/instagram.svg" alt="instagram" class="icon">
+                <img src="icons/twitter.svg" alt="twitter" class="icon">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

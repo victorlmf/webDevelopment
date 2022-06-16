@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+/* NavBar */
+#navbar, #footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4110a;
+    color: white;
+}
+
+#logo {
+    height: 100;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px;
+    text-decoration: none;
+}
+
+/* Banner */
+#banner {
+    background-image: linear-gradient(to bottom right, #7dafc0, #0d60a3);
+    width: 100%;
+    padding: 30px 0;
+}
+
+/* New */
+#news {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buy_now {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    color: #424242;
+    font: 24px;
+    width: 450px;
+}
+
+.btn {
+    background-color: #d4110a;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    padding: 10px;
+    width: 130px;
+}
+
+#warning {
+    width: 300px;
+}
+
+/* Card Section */
+#card_section {
+    margin: 15px 0;
+}
+
+.header_title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 5px;
+}
+
+.card_image {
+    width: 100%;
+}
+
+/* icons */
+.icon {
+    margin: 10px;
+    height: 50px;
+}
